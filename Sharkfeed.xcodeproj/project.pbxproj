@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F91F911202A59740077A378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F910202A59740077A378 /* main.m */; };
+		6F91F914202A59740077A378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F913202A59740077A378 /* AppDelegate.m */; };
+		6F91F917202A59740077A378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F916202A59740077A378 /* ViewController.m */; };
+		6F91F91A202A59740077A378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F918202A59740077A378 /* Main.storyboard */; };
+		6F91F91C202A59740077A378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F91B202A59740077A378 /* Assets.xcassets */; };
+		6F91F91F202A59740077A378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F91D202A59740077A378 /* LaunchScreen.storyboard */; };
+		6F91F92A202A59740077A378 /* SharkfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F929202A59740077A378 /* SharkfeedTests.m */; };
+		6F91F935202A59740077A378 /* SharkfeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F934202A59740077A378 /* SharkfeedUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F91F926202A59740077A378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F91F904202A59740077A378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F91F90B202A59740077A378;
+			remoteInfo = Sharkfeed;
+		};
+		6F91F931202A59740077A378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F91F904202A59740077A378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F91F90B202A59740077A378;
+			remoteInfo = Sharkfeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F91F90C202A59740077A378 /* Sharkfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharkfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F91F910202A59740077A378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F91F912202A59740077A378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F91F913202A59740077A378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F91F915202A59740077A378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F91F916202A59740077A378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F91F919202A59740077A378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F91F91B202A59740077A378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F91F91E202A59740077A378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F91F920202A59740077A378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F91F925202A59740077A378 /* SharkfeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkfeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F91F929202A59740077A378 /* SharkfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkfeedTests.m; sourceTree = "<group>"; };
+		6F91F92B202A59740077A378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F91F930202A59740077A378 /* SharkfeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkfeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F91F934202A59740077A378 /* SharkfeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkfeedUITests.m; sourceTree = "<group>"; };
+		6F91F936202A59740077A378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F91F909202A59740077A378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F922202A59740077A378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F92D202A59740077A378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F91F903202A59740077A378 = {
+			isa = PBXGroup;
+			children = (
+				6F91F90E202A59740077A378 /* Sharkfeed */,
+				6F91F928202A59740077A378 /* SharkfeedTests */,
+				6F91F933202A59740077A378 /* SharkfeedUITests */,
+				6F91F90D202A59740077A378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F91F90D202A59740077A378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F90C202A59740077A378 /* Sharkfeed.app */,
+				6F91F925202A59740077A378 /* SharkfeedTests.xctest */,
+				6F91F930202A59740077A378 /* SharkfeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F91F90E202A59740077A378 /* Sharkfeed */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F912202A59740077A378 /* AppDelegate.h */,
+				6F91F913202A59740077A378 /* AppDelegate.m */,
+				6F91F915202A59740077A378 /* ViewController.h */,
+				6F91F916202A59740077A378 /* ViewController.m */,
+				6F91F918202A59740077A378 /* Main.storyboard */,
+				6F91F91B202A59740077A378 /* Assets.xcassets */,
+				6F91F91D202A59740077A378 /* LaunchScreen.storyboard */,
+				6F91F920202A59740077A378 /* Info.plist */,
+				6F91F90F202A59740077A378 /* Supporting Files */,
+			);
+			path = Sharkfeed;
+			sourceTree = "<group>";
+		};
+		6F91F90F202A59740077A378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F910202A59740077A378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F91F928202A59740077A378 /* SharkfeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F929202A59740077A378 /* SharkfeedTests.m */,
+				6F91F92B202A59740077A378 /* Info.plist */,
+			);
+			path = SharkfeedTests;
+			sourceTree = "<group>";
+		};
+		6F91F933202A59740077A378 /* SharkfeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F934202A59740077A378 /* SharkfeedUITests.m */,
+				6F91F936202A59740077A378 /* Info.plist */,
+			);
+			path = SharkfeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F91F90B202A59740077A378 /* Sharkfeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F91F939202A59740077A378 /* Build configuration list for PBXNativeTarget "Sharkfeed" */;
+			buildPhases = (
+				6F91F908202A59740077A378 /* Sources */,
+				6F91F909202A59740077A378 /* Frameworks */,
+				6F91F90A202A59740077A378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharkfeed;
+			productName = Sharkfeed;
+			productReference = 6F91F90C202A59740077A378 /* Sharkfeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F91F924202A59740077A378 /* SharkfeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F91F93C202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedTests" */;
+			buildPhases = (
+				6F91F921202A59740077A378 /* Sources */,
+				6F91F922202A59740077A378 /* Frameworks */,
+				6F91F923202A59740077A378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F91F927202A59740077A378 /* PBXTargetDependency */,
+			);
+			name = SharkfeedTests;
+			productName = SharkfeedTests;
+			productReference = 6F91F925202A59740077A378 /* SharkfeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F91F92F202A59740077A378 /* SharkfeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F91F93F202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedUITests" */;
+			buildPhases = (
+				6F91F92C202A59740077A378 /* Sources */,
+				6F91F92D202A59740077A378 /* Frameworks */,
+				6F91F92E202A59740077A378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F91F932202A59740077A378 /* PBXTargetDependency */,
+			);
+			name = SharkfeedUITests;
+			productName = SharkfeedUITests;
+			productReference = 6F91F930202A59740077A378 /* SharkfeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F91F904202A59740077A378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Fikirte  Derso";
+				TargetAttributes = {
+					6F91F90B202A59740077A378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6F91F924202A59740077A378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F91F90B202A59740077A378;
+					};
+					6F91F92F202A59740077A378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F91F90B202A59740077A378;
+					};
+				};
+			};
+			buildConfigurationList = 6F91F907202A59740077A378 /* Build configuration list for PBXProject "Sharkfeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F91F903202A59740077A378;
+			productRefGroup = 6F91F90D202A59740077A378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F91F90B202A59740077A378 /* Sharkfeed */,
+				6F91F924202A59740077A378 /* SharkfeedTests */,
+				6F91F92F202A59740077A378 /* SharkfeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F91F90A202A59740077A378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91F91F202A59740077A378 /* LaunchScreen.storyboard in Resources */,
+				6F91F91C202A59740077A378 /* Assets.xcassets in Resources */,
+				6F91F91A202A59740077A378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F923202A59740077A378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F92E202A59740077A378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F91F908202A59740077A378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91F917202A59740077A378 /* ViewController.m in Sources */,
+				6F91F914202A59740077A378 /* AppDelegate.m in Sources */,
+				6F91F911202A59740077A378 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F921202A59740077A378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91F92A202A59740077A378 /* SharkfeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F91F92C202A59740077A378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91F935202A59740077A378 /* SharkfeedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F91F927202A59740077A378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F91F90B202A59740077A378 /* Sharkfeed */;
+			targetProxy = 6F91F926202A59740077A378 /* PBXContainerItemProxy */;
+		};
+		6F91F932202A59740077A378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F91F90B202A59740077A378 /* Sharkfeed */;
+			targetProxy = 6F91F931202A59740077A378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F91F918202A59740077A378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F91F919202A59740077A378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F91F91D202A59740077A378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F91F91E202A59740077A378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F91F937202A59740077A378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F91F938202A59740077A378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F91F93A202A59740077A378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sharkfeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.Sharkfeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F91F93B202A59740077A378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sharkfeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.Sharkfeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F91F93D202A59740077A378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SharkfeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.SharkfeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharkfeed.app/Sharkfeed";
+			};
+			name = Debug;
+		};
+		6F91F93E202A59740077A378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SharkfeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.SharkfeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharkfeed.app/Sharkfeed";
+			};
+			name = Release;
+		};
+		6F91F940202A59740077A378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SharkfeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.SharkfeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sharkfeed;
+			};
+			name = Debug;
+		};
+		6F91F941202A59740077A378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SharkfeedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.SharkfeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sharkfeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F91F907202A59740077A378 /* Build configuration list for PBXProject "Sharkfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F91F937202A59740077A378 /* Debug */,
+				6F91F938202A59740077A378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F91F939202A59740077A378 /* Build configuration list for PBXNativeTarget "Sharkfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F91F93A202A59740077A378 /* Debug */,
+				6F91F93B202A59740077A378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F91F93C202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F91F93D202A59740077A378 /* Debug */,
+				6F91F93E202A59740077A378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F91F93F202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F91F940202A59740077A378 /* Debug */,
+				6F91F941202A59740077A378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F91F904202A59740077A378 /* Project object */;
+}
