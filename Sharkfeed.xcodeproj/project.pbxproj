@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F7E70F8202B089A00A4C8F6 /* SharkPhtoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E70F7202B089A00A4C8F6 /* SharkPhtoViewController.m */; };
+		6F7E70FB202B6C6A00A4C8F6 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7E70FA202B6C6A00A4C8F6 /* PhotoDetailViewController.m */; };
 		6F91F911202A59740077A378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F910202A59740077A378 /* main.m */; };
 		6F91F914202A59740077A378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F913202A59740077A378 /* AppDelegate.m */; };
-		6F91F917202A59740077A378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F916202A59740077A378 /* ViewController.m */; };
 		6F91F91A202A59740077A378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F918202A59740077A378 /* Main.storyboard */; };
 		6F91F91C202A59740077A378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F91B202A59740077A378 /* Assets.xcassets */; };
 		6F91F91F202A59740077A378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F91F91D202A59740077A378 /* LaunchScreen.storyboard */; };
 		6F91F92A202A59740077A378 /* SharkfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F929202A59740077A378 /* SharkfeedTests.m */; };
 		6F91F935202A59740077A378 /* SharkfeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F934202A59740077A378 /* SharkfeedUITests.m */; };
+		6F91F948202A5D930077A378 /* SharkFeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F947202A5D930077A378 /* SharkFeedCollectionViewCell.m */; };
+		6F91F94E202A741A0077A378 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F94D202A741A0077A378 /* WebService.m */; };
+		6F91F954202A74480077A378 /* SharkPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F953202A74480077A378 /* SharkPhoto.m */; };
+		6F91F95B202AB9EB0077A378 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91F95A202AB9EB0077A378 /* WebServiceManager.m */; };
+		6FE1A3FC202CCD88009359F8 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE1A3FB202CCD88009359F8 /* ImageCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F7E70F6202B089A00A4C8F6 /* SharkPhtoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkPhtoViewController.h; sourceTree = "<group>"; };
+		6F7E70F7202B089A00A4C8F6 /* SharkPhtoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkPhtoViewController.m; sourceTree = "<group>"; };
+		6F7E70F9202B6C6A00A4C8F6 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		6F7E70FA202B6C6A00A4C8F6 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
 		6F91F90C202A59740077A378 /* Sharkfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharkfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F91F910202A59740077A378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F91F912202A59740077A378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F91F913202A59740077A378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F91F915202A59740077A378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F91F916202A59740077A378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F91F919202A59740077A378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F91F91B202A59740077A378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F91F91E202A59740077A378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,17 @@
 		6F91F930202A59740077A378 /* SharkfeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkfeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F91F934202A59740077A378 /* SharkfeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharkfeedUITests.m; sourceTree = "<group>"; };
 		6F91F936202A59740077A378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F91F946202A5D930077A378 /* SharkFeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkFeedCollectionViewCell.h; sourceTree = "<group>"; };
+		6F91F947202A5D930077A378 /* SharkFeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkFeedCollectionViewCell.m; sourceTree = "<group>"; };
+		6F91F94C202A741A0077A378 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		6F91F94D202A741A0077A378 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		6F91F952202A74480077A378 /* SharkPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharkPhoto.h; path = ../SharkPhoto.h; sourceTree = "<group>"; };
+		6F91F953202A74480077A378 /* SharkPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharkPhoto.m; path = ../SharkPhoto.m; sourceTree = "<group>"; };
+		6F91F958202AA0920077A378 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6F91F959202AB9EB0077A378 /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		6F91F95A202AB9EB0077A378 /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		6FE1A3FA202CCD88009359F8 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		6FE1A3FB202CCD88009359F8 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7E70FC202C3BFC00A4C8F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F91F903202A59740077A378 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,7 @@
 				6F91F928202A59740077A378 /* SharkfeedTests */,
 				6F91F933202A59740077A378 /* SharkfeedUITests */,
 				6F91F90D202A59740077A378 /* Products */,
+				6F7E70FC202C3BFC00A4C8F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +130,15 @@
 			children = (
 				6F91F912202A59740077A378 /* AppDelegate.h */,
 				6F91F913202A59740077A378 /* AppDelegate.m */,
-				6F91F915202A59740077A378 /* ViewController.h */,
-				6F91F916202A59740077A378 /* ViewController.m */,
-				6F91F918202A59740077A378 /* Main.storyboard */,
-				6F91F91B202A59740077A378 /* Assets.xcassets */,
-				6F91F91D202A59740077A378 /* LaunchScreen.storyboard */,
-				6F91F920202A59740077A378 /* Info.plist */,
+				6F91F958202AA0920077A378 /* Constants.h */,
+				6F91F959202AB9EB0077A378 /* WebServiceManager.h */,
+				6F91F95A202AB9EB0077A378 /* WebServiceManager.m */,
+				6F91F94C202A741A0077A378 /* WebService.h */,
+				6F91F94D202A741A0077A378 /* WebService.m */,
+				6FE1A3FA202CCD88009359F8 /* ImageCache.h */,
+				6FE1A3FB202CCD88009359F8 /* ImageCache.m */,
+				6F91F955202A74590077A378 /* Data Model */,
+				6F91F945202A5C320077A378 /* UIController */,
 				6F91F90F202A59740077A378 /* Supporting Files */,
 			);
 			path = Sharkfeed;
@@ -117,6 +147,10 @@
 		6F91F90F202A59740077A378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F91F918202A59740077A378 /* Main.storyboard */,
+				6F91F91D202A59740077A378 /* LaunchScreen.storyboard */,
+				6F91F91B202A59740077A378 /* Assets.xcassets */,
+				6F91F920202A59740077A378 /* Info.plist */,
 				6F91F910202A59740077A378 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +172,28 @@
 				6F91F936202A59740077A378 /* Info.plist */,
 			);
 			path = SharkfeedUITests;
+			sourceTree = "<group>";
+		};
+		6F91F945202A5C320077A378 /* UIController */ = {
+			isa = PBXGroup;
+			children = (
+				6F7E70F6202B089A00A4C8F6 /* SharkPhtoViewController.h */,
+				6F7E70F7202B089A00A4C8F6 /* SharkPhtoViewController.m */,
+				6F7E70F9202B6C6A00A4C8F6 /* PhotoDetailViewController.h */,
+				6F7E70FA202B6C6A00A4C8F6 /* PhotoDetailViewController.m */,
+				6F91F946202A5D930077A378 /* SharkFeedCollectionViewCell.h */,
+				6F91F947202A5D930077A378 /* SharkFeedCollectionViewCell.m */,
+			);
+			name = UIController;
+			sourceTree = "<group>";
+		};
+		6F91F955202A74590077A378 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F91F952202A74480077A378 /* SharkPhoto.h */,
+				6F91F953202A74480077A378 /* SharkPhoto.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F91F917202A59740077A378 /* ViewController.m in Sources */,
+				6F91F94E202A741A0077A378 /* WebService.m in Sources */,
+				6F91F954202A74480077A378 /* SharkPhoto.m in Sources */,
+				6F7E70FB202B6C6A00A4C8F6 /* PhotoDetailViewController.m in Sources */,
+				6F91F95B202AB9EB0077A378 /* WebServiceManager.m in Sources */,
+				6F91F948202A5D930077A378 /* SharkFeedCollectionViewCell.m in Sources */,
 				6F91F914202A59740077A378 /* AppDelegate.m in Sources */,
 				6F91F911202A59740077A378 /* main.m in Sources */,
+				6FE1A3FC202CCD88009359F8 /* ImageCache.m in Sources */,
+				6F7E70F8202B089A00A4C8F6 /* SharkPhtoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sharkfeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.Sharkfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sharkfeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikirtederso.Sharkfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +569,7 @@
 				6F91F93B202A59740077A378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F91F93C202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +578,7 @@
 				6F91F93E202A59740077A378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F91F93F202A59740077A378 /* Build configuration list for PBXNativeTarget "SharkfeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +587,7 @@
 				6F91F941202A59740077A378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
